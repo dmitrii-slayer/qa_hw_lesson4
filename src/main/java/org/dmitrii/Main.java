@@ -42,24 +42,31 @@ public class Main {
         System.out.println(true || false); // true
         System.out.println(false && false); // false
         System.out.println(!false && !false); // true
-        System.out.println("4>3 AND 8>7 ? answer: " + (4>3 && 8>7)); // true
-        System.out.println("4>3 AND 6>7 ? answer: " + (4>3 && 6>7)); // false
-        System.out.println("4>3 AND !(6>7) ? answer: " + (4>3 && !(6>7))); // true
-        System.out.println("4>3 OR 6>7 ? answer: " + (4>3 || 6>7)); // true
-        System.out.println("!(4>3) OR 6>7 ? answer: " + (!(4>3) || (6>7))); // false
-
-
-
+        System.out.println("4>3 AND 8>7 ? answer: " + (4 > 3 && 8 > 7)); // true
+        System.out.println("4>3 AND 6>7 ? answer: " + (4 > 3 && 6 > 7)); // false
+        System.out.println("4>3 AND !(6>7) ? answer: " + (4 > 3 && !(6 > 7))); // true
+        System.out.println("4>3 OR 6>7 ? answer: " + (4 > 3 || 6 > 7)); // true
+        System.out.println("!(4>3) OR 6>7 ? answer: " + (!(4 > 3) || (6 > 7))); // false
 
 
         // попробовать вычисления комбинаций типов данных (int и double)
+        int a = 400;
+        double b = 2.00d;
+        System.out.println(a + b);
+        System.out.println(a - b);
+        System.out.println(a / b);
+        System.out.println(a * b);
+        System.out.println(a % b);
 
-//        int x = 120;
-//        double y = 1.1;
-//        System.out.println(x+y);
-//        System.out.println(200+2000.2);
-//        System.out.println(x/y);
-//        System.out.println(x*y);
-//        System.out.println(x%y);
+        System.out.println("###########");
+
+        a = 830;
+        b = 1.17345d;
+        System.out.println(a + b);
+        System.out.println(a - b);
+        System.out.println(a / b);
+        System.out.println(a * b);
+        System.out.println(a % b);
+
     }
 }
